@@ -1,6 +1,6 @@
 # LIC-SPICE-Sim
 
-#Introduction to LTSPICE
+# Introduction to LTSPICE
 
 Analog Devices created the high-performance SPICE-based circuit simulation program( LTspice). Electronic circuit simulation, analysis, and optimization are common uses for it, especially in the design of analog and power electronics. Because of its speed, precision, and large number of built-in component models, LTspice is widely used by researchers, engineers, and students.
 
