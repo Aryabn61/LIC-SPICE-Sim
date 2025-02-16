@@ -78,3 +78,20 @@ Gain(Av) = Vout/Vin
 Av = 1.793/900m
 
 Av=1.999 ≈ 2
+
+# AC analysis
+
+This is used to analyse the circuit with response to different frequencies.
+
+Select the input voltage to sine and set DC offset to 0.9 V , amplitude to 50m V and frequency to 1k Hz. Select the AC amplitude to A. Then in run command select AC analysis and select the type of sweep to decade and select the number of points to 20 and operating frequency from 0.1 Hz to 1T Hz.
+
+![ac22](https://github.com/user-attachments/assets/580bbd44-765e-44c1-8072-370635219ef7)
+
+![t4](https://github.com/user-attachments/assets/107075fe-312c-43a3-b5aa-76bd048d0c86)
+
+Frequency response : 
+
+![ac21](https://github.com/user-attachments/assets/56301bff-2253-4f58-944a-67b4ee7a233f)
+
+# Result : 
+
