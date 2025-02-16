@@ -95,3 +95,18 @@ Frequency response :
 
 # Result : 
 
+• DC operating point:-
+
+For Rd = 1K Ω : (1.74 V , 55µ A).
+
+For RD = 5k Ω : (1.52 V , 55µ A).
+
+For W/L = 1µ/180n : (1.63 V,0.00016631 A).
+
+• Transient analysis :
+
+Gain = 2
+
+• AC analysis : 
+
+
