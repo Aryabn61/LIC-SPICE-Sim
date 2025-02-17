@@ -7,9 +7,21 @@ Q. For the given circuit below find the DC operating point , gain and AC analysi
 
 ![d2dc1](https://github.com/user-attachments/assets/3f261abd-339e-4f7e-a149-4adbe63c4417)
 
+For the transistor to work as amplifier it should operate in saturation region. 
+
+From the circuit , Vs = 1.8 V.
+
+VG < (1.8-VTH) 
+
+VG < (1.8-0.3906) 
+
+VG < 1.25 V.
+
+Therefore Vb = 1.25 V.
+
 ![d2dc2](https://github.com/user-attachments/assets/3bb05d9a-8683-4c97-9598-78e15bc9d419)
 
-#Transient analysis
+# Transient analysis
 
 ![d2 t2](https://github.com/user-attachments/assets/f442237b-29c5-4b82-848d-9c1887a7331a)
 
