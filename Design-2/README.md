@@ -75,5 +75,7 @@ Set the voltage to AC amplitude and the run the AC analysis . Set the operatin g
 # Inference : 
 
 • If the Vb value is less than 1.25 V then the mosfet M1 will operates in cut-off region and does not conducts.
+
 • For medium gain we need to select the DC operatin gpoint in between cut-off and triode region with reference to voltage transfer characteristics graph(VTC curve).
+
 • In AC analysis we can seed that at starting frequecny range the graph increases as the circuit behaves as low pass filter where the coupling and bypass cpacitors acts and at some frequency range the graph becomes constant and at higher frequencies the internal capacitor or the parasitic capactor gets activated.
