@@ -5,7 +5,7 @@ Q. For the given circuit below find the DC operating point , gain and AC analysi
 
 **Aim :** To find the DC operating point of the transistor , gain using transient analysis and AC analysis.
 
-**Theory :*** 
+**Theory :**
 
 Two complementary MOSFET transistors, a P-channel (PMOS) and an N-channel (NMOS), are used in CMOS inverter circuits. The input voltage applied to the gates of both transistors regulates which transistor is "on" and which is "off," thereby inverting the input signal to generate the opposite logic level at the output.
 
