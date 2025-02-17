@@ -3,7 +3,13 @@ Q. For the given circuit below find the DC operating point , gain and AC analysi
 
 ![d2dc1](https://github.com/user-attachments/assets/3f261abd-339e-4f7e-a149-4adbe63c4417)
 
-Procedure:
+**Aim :** To find the DC operating point of the transistor , gain using transient analysis and AC analysis.
+
+**Theory :*** 
+
+Two complementary MOSFET transistors, a P-channel (PMOS) and an N-channel (NMOS), are used in CMOS inverter circuits. The input voltage applied to the gates of both transistors regulates which transistor is "on" and which is "off," thereby inverting the input signal to generate the opposite logic level at the output.
+
+**Procedure:**
 
 • Make the circuit connection as above.
 
@@ -16,6 +22,7 @@ Procedure:
 # DC Analysis
 
 For DC analysis we need to find the operating point of the transistor.Make sure that both the transistor is operating in saturation region.
+
 ![d2dc1](https://github.com/user-attachments/assets/3f261abd-339e-4f7e-a149-4adbe63c4417)
 
 For the transistor to work as amplifier it should operate in saturation region. 
@@ -26,13 +33,13 @@ VG < (1.8-VTH)
 
 VG < (1.8-0.3906) 
 
-VG < 1.25 V.
+**VG < 1.25 V.**
 
 Therefore Vb = 1.25 V.
 
 ![d2dc2](https://github.com/user-attachments/assets/3bb05d9a-8683-4c97-9598-78e15bc9d419)
 
-DC operating point is (1.47 V, 55µ A)
+**DC operating point is (1.47 V, 55µ A).**
 
 # Transient analysis
 
@@ -40,7 +47,7 @@ Set the input voltage to sine with DC offset to 0.9 V , amplitude 50m V and freq
 
 ![d2 t2](https://github.com/user-attachments/assets/f442237b-29c5-4b82-848d-9c1887a7331a)
 
-#Output waveform:
+# Output waveform:
 
 ![d2t1](https://github.com/user-attachments/assets/02b180ed-1e04-49b2-8616-b946722c3534)
 
@@ -48,7 +55,7 @@ Gain is A = Vout/Vin
 
 A = 1.53/950m
 
-A = 1.61.
+**A = 1.61.**
 
 # AC analysis
 
