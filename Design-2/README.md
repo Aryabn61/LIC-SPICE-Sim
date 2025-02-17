@@ -4,10 +4,14 @@ Q. For the given circuit below find the DC operating point , gain and AC analysi
 ![d2dc1](https://github.com/user-attachments/assets/3f261abd-339e-4f7e-a149-4adbe63c4417)
 
 Procedure:
+
 • Make the circuit connection as above.
+
 • Make the V1 source as 1.8 V DC power supply.
+
 • Find Vb through calculation.
-• Set V3 to 0.9V.
+
+• Set V3 to 0.9 V.
 
 # DC Analysis
 
