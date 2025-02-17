@@ -133,4 +133,4 @@ ID = (1/2)*Kn(Vov)^2
 
 • Increase W/L → Increases ID (for the same VGS).\
 • Decrease W/L → Reduces ID, requiring higher VGS to maintain the same current.\
-• 
+• Adding a source resistance to a common-source (CS) amplifier lowers the overall voltage gain because part of the input signal voltage is now dropped across the source resistor, which reduces the voltage swing available at the MOSFET's gate and, in effect, lowers the amplification effect.
