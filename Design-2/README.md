@@ -21,11 +21,19 @@ Therefore Vb = 1.25 V.
 
 ![d2dc2](https://github.com/user-attachments/assets/3bb05d9a-8683-4c97-9598-78e15bc9d419)
 
+DC operating point is (1.47 V, 55µ A)
+
 # Transient analysis
 
 ![d2 t2](https://github.com/user-attachments/assets/f442237b-29c5-4b82-848d-9c1887a7331a)
 
 ![d2t1](https://github.com/user-attachments/assets/02b180ed-1e04-49b2-8616-b946722c3534)
+
+Gain is A = Vout/Vin
+
+A = 1.53/950m
+
+A = 1.61.
 
 # AC analysis
 
