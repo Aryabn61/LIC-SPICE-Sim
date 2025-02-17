@@ -8,6 +8,11 @@ Q: In the given below circuit find the DC operating point,Gain using transient a
 
 **Components** : Mosfet,resistors,DC power supply.
 
+# Theory : 
+
+One kind of field-effect transistor (FET) amplifier used to increase voltage or transconductance is called a common source amplifier. It is one of the three fundamental topologies for single-stage FET amplifiers. How it operates The gate terminal receives the input signal.The drain terminal provides the output signal.The input and output share a common source terminal.Characteristics of common source amplifiers has a greater input resistance than the CE amplifier that is comparable.has less gain than the CE amplifier that is comparable.
+able to function as a transconductance or voltage amplifierTypical uses for source amplifierscan be applied to amplifier circuits that need signals with extremely low input voltage. Both transconductance and voltage amplifiers can be employed. 
+
 **Procedure** :
 
 • Make the circuit connection as show above.
@@ -43,7 +48,7 @@ The obtained **DC operating point is (1.74 V , 55µ A)**.
 
 # For RD = 5K Ω
 
-![dc21](https://github.com/user-attachments/assets/8c3287c5-7955-4e61-b5f3-7efeb8afd642)
+![dc41](https://github.com/user-attachments/assets/b54749e1-dd6d-498a-96a4-e13230b50b0f)
 
 The Obtained **DC operating value is (1.52 V , 55µ A)**.
 
@@ -107,6 +112,7 @@ Frequency response :
 
 • DC operating point:-
 
+
 For Rd = 1K Ω : (1.74 V , 55µ A).
 
 For RD = 5k Ω : (1.52 V , 55µ A).
@@ -119,4 +125,12 @@ Gain = 2
 
 • AC analysis : 
 
+# Inference :
 
+• The W/L ratio controls the mosfet transconductance(gm) and drain current 
+
+ID = (1/2)*Kn(Vov)^2
+
+• Increase W/L → Increases ID (for the same VGS).\
+• Decrease W/L → Reduces ID, requiring higher VGS to maintain the same current.\
+• 
