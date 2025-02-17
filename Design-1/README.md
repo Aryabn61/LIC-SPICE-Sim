@@ -123,8 +123,6 @@ For W/L = 1µ/180n : (1.63 V,0.00016631 A).
 
 Gain = 2
 
-• AC analysis : 
-
 # Inference :
 
 • The W/L ratio controls the mosfet transconductance(gm) and drain current 
