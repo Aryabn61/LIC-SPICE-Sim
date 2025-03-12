@@ -81,9 +81,9 @@ Calculations :
 
   **Procedure :**
 
-  - Change the DC input to AC signal.
-  - Use SINE function in advanced.
-  - Enter the values of DC offset , amplitude,frequency.
-  - Then click on run command.
-  - Choose "Transient".
-  - Set stop time to 10ms and click ok.
+ - Change the DC input to AC signal.
+ - Use SINE function in advanced.
+- Enter the values of DC offset , amplitude,frequency.
+ - Then click on run command.
+ - Choose "Transient".
+ - Set stop time to 10ms and click ok.
