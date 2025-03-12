@@ -87,3 +87,38 @@ Calculations :
  - Then click on run command.
  - Choose "Transient".
  - Set stop time to 10ms and click ok.
+
+
+**Transient analysis for V<sub>incm(min)</sub> = 0.766 V
+
+**Transient analysis for V<sub>incm(man)</sub> = 
+
+# **AC Analysis :**
+
+**Procedure :**
+- In voltage source select advanced and set the AC amplitude of M1 transistor to 1 ans M2 transistor to -1.
+- In simulation tab select AC Analysis.
+- Then select **Type of Sweep as Decade**.
+- Select the frequency range from 0.1 Hz to 1 THz.
+- The obtained **differential gain is  **.
+- 3dB Bandwidth is
+
+# **Circuit 2**
+
+- **Current source loaded differential amplifier pair**
+
+# **DC Analysis :**
+
+
+# **Transient Analysis :**
+
+# **AC Analysis :**
+
+
+# **Circuit 3**
+
+# **DC Analysis :**
+
+# **Transient Analysis :**
+
+# **AC Analysis :**
