@@ -42,6 +42,9 @@ Calculations :
 
 # **DC Analysis :**
 
+![dc circuit](https://github.com/user-attachments/assets/29f2dac0-9353-4cd9-8ba0-a75745d2dca9)
+
+
 - Make the circuit as shown above.
 - Set the R<sub>D</sub> and R<sub>ss</sub> values as determined by the calculation.
 - Vary W/L ratio of both the transistor to get the required V<sub>ocm</sub> and I<sub>S</sub>.
@@ -52,6 +55,10 @@ Calculations :
   V<sub>GS</sub>>V<sub>TH</sub> ,
 
   V<sub>DS</sub>>V<sub>ov</sub>
+
+![w and l](https://github.com/user-attachments/assets/6d4e0baa-ed90-4452-a225-82d4b50d4677)
+
+![DC values](https://github.com/user-attachments/assets/d8582160-521b-438b-a04c-b4c22d3f921f)
 
 - Calculate V<sub>incm(min)</sub>,V<sub>incim(max)</sub>,V<sub>out(min)</sub>,V<sub>out(max)</sub>.
 
@@ -68,6 +75,8 @@ Calculations :
   V<sub>outcm(max)</sub> = V<sub>DD</sub> -(I<sub>D</sub>R<sub>D</sub>) =
 
   # **Transient Analysis :**
+
+![tran cir](https://github.com/user-attachments/assets/b87beb73-38e5-43a0-b38f-1aaed388f55f)
 
   Theoretical gain of the circuit is ,
 
@@ -88,11 +97,15 @@ Calculations :
  - Choose "Transient".
  - Set stop time to 10ms and click ok.
 
-Transient analysis for V<sub>incm(min)</sub> = 0.766 V
+   ![transient ](https://github.com/user-attachments/assets/105b7f44-1202-47d6-b1be-d84132a6a4ed)
 
-Transient analysis for V<sub>incm(man)</sub> = 
+**Transient analysis for V<sub>incm(min)</sub> = 0.766 V**
+
+**Transient analysis for V<sub>incm(man)</sub> =**
 
 # **AC Analysis :**
+
+![ac cir](https://github.com/user-attachments/assets/4dbd7f7d-08e3-47cb-a94d-fa0af83d208d)
 
 **Procedure :**
 - In voltage source select advanced and set the AC amplitude of M1 transistor to 1 ans M2 transistor to -1.
