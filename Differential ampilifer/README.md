@@ -4,11 +4,11 @@
 
 Design and analyse the MOS differentual amplifier circuit and perform DC analysis , transient analysis and frequency response for the following specifications : 
 
-- Supply voltage(V<sub>DD) = 2.2 V
-- Output common mode voltage(V<sub>ocm) = 1.25 V
+- Supply voltage(V<sub>DD</sub>) = 2.2 V
+- Output common mode voltage(V<sub>ocm</sub>) = 1.25 V
 - Power(P) <= 2.2 mW
-- Common mode input voltage (V<sub>icm) = 1.2 V
--  Voltage at point p(V<sub>p) = 0.4 V
+- Common mode input voltage (V<sub>icm</sub>) = 1.2 V
+-  Voltage at point P(V<sub>p</sub>) = 0.4 V
 
 # **Cirucit 1**
 
