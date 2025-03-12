@@ -69,4 +69,21 @@ Calculations :
 
   # **Transient Analysis : **
 
-  
+  Theoretical gain of the circuit is ,
+
+  A<sub>v</sub> = -G<sub>m</sub>R<sub>D</sub>
+
+  where G<sub>m</sub> = (2I<sub>D</sub>)/V<sub>ov</sub>
+
+  G<sub>m</sub>=
+
+  A<sub>v</sub> =
+
+  **Procedure :**
+
+  - Change the DC input to AC signal.
+  - Use SINE function in advanced.
+  - Enter the values of DC offset , amplitude,frequency.
+  - Then click on run command.
+  - Choose "Transient".
+  - Set stop time to 10ms and click ok.
