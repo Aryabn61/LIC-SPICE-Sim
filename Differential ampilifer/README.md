@@ -40,7 +40,7 @@ Calculations :
 
   R<sub>D</sub> = (2.2-1.25)/0.5 m = 1.9 kΩ
 
-# **DC Analysis : **
+# **DC Analysis :**
 
 - Make the circuit as shown above.
 - Set the R<sub>D</sub> and R<sub>ss</sub> values as determined by the calculation.
@@ -67,7 +67,7 @@ Calculations :
 
   V<sub>outcm(max)</sub> = V<sub>DD</sub> -(I<sub>D</sub>R<sub>D</sub>) =
 
-  # **Transient Analysis : **
+  # **Transient Analysis :**
 
   Theoretical gain of the circuit is ,
 
@@ -88,10 +88,9 @@ Calculations :
  - Choose "Transient".
  - Set stop time to 10ms and click ok.
 
+Transient analysis for V<sub>incm(min)</sub> = 0.766 V
 
-**Transient analysis for V<sub>incm(min)</sub> = 0.766 V
-
-**Transient analysis for V<sub>incm(man)</sub> = 
+Transient analysis for V<sub>incm(man)</sub> = 
 
 # **AC Analysis :**
 
