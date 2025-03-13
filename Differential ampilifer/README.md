@@ -246,8 +246,8 @@ V<sub>bias</sub> = V<sub>G</sub> = 0.76624 V ( Bias voltage at the gate for 3rd 
 
 |Parameter      |Theory value  | Practical value |
 |---------------|--------------|-----------------|
-|Av(in dB)      | 12.72 dB     | 13.25 dB        |
-|Av(in V/V)     | 4.33         | 4.59            |
+|Av(in dB)      | 12.72 dB     | 11.9 dB         |
+|Av(in V/V)     | 4.33         | 3.99            |
 # **Final Result**
 
 | **Parameter** | **Circuit 1** | **Circuit 2** | **Circuit 3** |
