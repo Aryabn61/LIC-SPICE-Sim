@@ -71,11 +71,7 @@ Calculations :
 
   V<sub>incm(max)</sub> = V<sub>DD</sub> - (I<sub>D</sub>R<sub>D</sub>) + V<sub>TH</sub>
 
-  V<sub>incm(max)</sub> =
-
-  V<sub>outcm(min)</sub> = V<sub>ov</sub> + V<sub>p</sub> =
-
-  V<sub>outcm(max)</sub> = V<sub>DD</sub> -(I<sub>D</sub>R<sub>D</sub>) =
+  V<sub>incm(max)</sub> = 1.616 V.
 
   # **Transient Analysis :**
 
@@ -87,9 +83,9 @@ Calculations :
 
   where G<sub>m</sub> = (2I<sub>D</sub>)/V<sub>ov</sub>
 
-  G<sub>m</sub>=
+  G<sub>m</sub>= 1.19 mS.
 
-  A<sub>v</sub> =
+  A<sub>v</sub> = 1.16.
 
   **Procedure :**
 
@@ -106,7 +102,7 @@ Calculations :
 
 ![trans 1 vincmmin final](https://github.com/user-attachments/assets/6d669e1c-70f5-4a9e-a21b-70f556f167ef)
 
-**Transient analysis for V<sub>incm(man)</sub> =**
+**Transient analysis for V<sub>incm(man)</sub> = 1.616 V**
 
 ![trans 1 vincmmax final](https://github.com/user-attachments/assets/73a49fbd-d957-41c9-8db9-4827bcf9e0e2)
 
@@ -128,40 +124,96 @@ Calculations :
 
 - **Current source loaded differential amplifier pair**
 
+ This is a differential amplifier built using two transistors and a current source. Both the transistor should have same W/L values to obtain a differential pair. This circuit improves Common Mode Rejection Ratio(CMRR) and high gain.
+
 ![c2](https://github.com/user-attachments/assets/ede5ecf1-dbe6-4af6-b67e-6aad8247b08b)
 
 # **DC Analysis :**
 
+- Make the circuit as shown above.
+- Set the R<sub>D</sub> and R<sub>ss</sub> values as determined by the calculation.
+- Vary W/L ratio of both the transistor to get the required V<sub>ocm</sub> and I<sub>S</sub>.
+- Set the W/L ratio in such a way that the values are same fot both the transistors.
+- Check the V<sub>GS</sub> and V<sub>DS</sub> value of the transistors such that it operates in saturation region.
+- **Condtion for saturation region :**
+
+  V<sub>GS</sub>>V<sub>TH</sub> ,
+
+  V<sub>DS</sub>>V<sub>ov</sub>
+  
 ![dc c2](https://github.com/user-attachments/assets/9cc45ea1-b3ce-4010-8d37-42ccdddea163)
 
 # **Transient Analysis :**
 
+ **Procedure :**
+
+ - Change the DC input to AC signal.
+ - Use SINE function in advanced.
+- Enter the values of DC offset , amplitude,frequency.
+ - Then click on run command.
+ - Choose "Transient".
+ - Set stop time to 10ms and click ok.
+   
 ![c2 trans](https://github.com/user-attachments/assets/251395c7-126b-4fa6-821e-2c5537948282)
 
 ![trans c2](https://github.com/user-attachments/assets/0406661a-e882-411c-b3a9-76b826e3a98c)
 
 # **AC Analysis :**
 
+**Procedure :**
+- In voltage source select advanced and set the AC amplitude of M1 transistor to 1 ans M2 transistor to -1.
+- In simulation tab select AC Analysis.
+- Then select **Type of Sweep as Decade**.
+- Select the frequency range from 0.1 Hz to 1 THz.
+- The obtained **differential gain is  **.
+  
 ![c2 ac](https://github.com/user-attachments/assets/0ee2776f-8175-4307-8276-6394fc7d7f3a)
 
 ![ac c2](https://github.com/user-attachments/assets/59bd2fa2-9f49-421d-9889-c8e086fee86a)
 
 # **Circuit 3**
 
+**MOSFET loaded differential amplifier pair**
+
 ![c3](https://github.com/user-attachments/assets/e42b2caf-f4d4-48c2-a0e1-aeea6327ed34)
 
 # **DC Analysis :**
 
+- Make the circuit as shown above.
+- Set the R<sub>D</sub> and R<sub>ss</sub> values as determined by the calculation.
+- Vary W/L ratio of both the transistor to get the required V<sub>ocm</sub> and I<sub>S</sub>.
+- Set the W/L ratio in such a way that the values are same fot both the transistors.
+- Check the V<sub>GS</sub> and V<sub>DS</sub> value of the transistors such that it operates in saturation region.
+- **Condtion for saturation region :**
+
+  V<sub>GS</sub>>V<sub>TH</sub> ,
+
+  V<sub>DS</sub>>V<sub>ov</sub>
+  
 ![dc c3](https://github.com/user-attachments/assets/a045c11a-c8f9-4dd2-be82-a9ea4110acb6)
 
 # **Transient Analysis :**
 
+ - Change the DC input to AC signal.
+ - Use SINE function in advanced.
+- Enter the values of DC offset , amplitude,frequency.
+ - Then click on run command.
+ - Choose "Transient".
+ - Set stop time to 10ms and click ok.
+   
 ![c3 trans](https://github.com/user-attachments/assets/b81d5715-947f-411b-97e7-73fb5dc0aeb5)
 
 ![trans c3](https://github.com/user-attachments/assets/18113f7e-66b4-45dd-a4cc-b70c64269f61)
 
 # **AC Analysis :**
 
+**Procedure :**
+- In voltage source select advanced and set the AC amplitude of M1 transistor to 1 ans M2 transistor to -1.
+- In simulation tab select AC Analysis.
+- Then select **Type of Sweep as Decade**.
+- Select the frequency range from 0.1 Hz to 1 THz.
+- The obtained **differential gain is  **.
+    
 ![c3 ac](https://github.com/user-attachments/assets/28a92e2a-950e-4680-9b14-059ed9d60063)
 
 ![ac c3](https://github.com/user-attachments/assets/df6b2f1b-81ec-4f31-bd89-b0bce11d4286)
