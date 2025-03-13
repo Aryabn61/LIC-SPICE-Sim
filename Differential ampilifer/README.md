@@ -83,15 +83,15 @@ Calculations :
 
   where G<sub>m</sub> = (2I<sub>D</sub>)/V<sub>ov</sub>
 
-  G<sub>m</sub>= 1.19 mS.
+  G<sub>m</sub>= 2.27 mS.
 
-  A<sub>v</sub> = 1.16.
+  A<sub>v</sub> = -4.31 V/V.
 
   **Procedure :**
 
  - Change the DC input to AC signal.
  - Use SINE function in advanced.
-- Enter the values of DC offset , amplitude,frequency.
+ - Enter the values of DC offset , amplitude,frequency.
  - Then click on run command.
  - Choose "Transient".
  - Set stop time to 10ms and click ok.
@@ -115,8 +115,8 @@ Calculations :
 - In simulation tab select AC Analysis.
 - Then select **Type of Sweep as Decade**.
 - Select the frequency range from 0.1 Hz to 1 THz.
-- The obtained **differential gain is  **.
-- 3dB Bandwidth is
+- The obtained **differential gain is  13.12 dB**.
+- 3dB Bandwidth is .
 
 ![AC1](https://github.com/user-attachments/assets/ff9d4273-a2f3-4899-8c86-17337a12b7de)
 
@@ -149,7 +149,7 @@ Calculations :
 
  - Change the DC input to AC signal.
  - Use SINE function in advanced.
-- Enter the values of DC offset , amplitude,frequency.
+ - Enter the values of DC offset , amplitude,frequency.
  - Then click on run command.
  - Choose "Transient".
  - Set stop time to 10ms and click ok.
@@ -158,6 +158,8 @@ Calculations :
 
 ![trans c2](https://github.com/user-attachments/assets/0406661a-e882-411c-b3a9-76b826e3a98c)
 
+   A<sub>v</sub> = -4.31 V/V.
+   
 # **AC Analysis :**
 
 **Procedure :**
@@ -165,7 +167,7 @@ Calculations :
 - In simulation tab select AC Analysis.
 - Then select **Type of Sweep as Decade**.
 - Select the frequency range from 0.1 Hz to 1 THz.
-- The obtained **differential gain is  **.
+- The obtained **differential gain is  13.121 dB**.
   
 ![c2 ac](https://github.com/user-attachments/assets/0ee2776f-8175-4307-8276-6394fc7d7f3a)
 
@@ -175,9 +177,19 @@ Calculations :
 
 **MOSFET loaded differential amplifier pair**
 
+A MOSFET-loaded differential amplifier is an advanced version of a differential pair where active MOSFETs replace resistive loads to improve gain, linearity, and performance.Connect the MOSFET at V<sub>p</sub> and the W/L value of the MOSFET should be same as M1 and M2.
+
 ![c3](https://github.com/user-attachments/assets/e42b2caf-f4d4-48c2-a0e1-aeea6327ed34)
 
 # **DC Analysis :**
+
+W.K.T
+
+V<sub>DS</sub> = V<sub>GS</sub> - V<sub>TH</sub> ( V<sub>DS</sub> = V<sub>p</sub> = 0.4 V )
+
+0.4 + 0.36624 = V<sub>G</sub> ( since source is grounded )
+
+V<sub>bias</sub> = V<sub>G</sub> = 0.76624 V ( Bias voltage at the gate for 3rd n type mosfet)
 
 - Make the circuit as shown above.
 - Set the R<sub>D</sub> and R<sub>ss</sub> values as determined by the calculation.
@@ -196,7 +208,7 @@ Calculations :
 
  - Change the DC input to AC signal.
  - Use SINE function in advanced.
-- Enter the values of DC offset , amplitude,frequency.
+ - Enter the values of DC offset , amplitude,frequency.
  - Then click on run command.
  - Choose "Transient".
  - Set stop time to 10ms and click ok.
