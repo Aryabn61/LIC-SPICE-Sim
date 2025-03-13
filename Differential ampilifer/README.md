@@ -14,7 +14,10 @@ Design and analyse the MOS differentual amplifier circuit and perform DC analysi
 
   - Resistor loaded differential pair
 
-    The above given crcuit is a NMOS differential amplifier circuit which consists of two NMOS transistors which is designed as differential pair . The NMOS transistors(M1 and M2) act as the differential pair that amplifies the difference between the two input signal and the output are taken from Vout.
+
+![dc circuit](https://github.com/user-attachments/assets/913cdd77-451c-4afc-ba46-a4968a4ceeed)
+
+The above given crcuit is a NMOS differential amplifier circuit which consists of two NMOS transistors which is designed as differential pair . The NMOS transistors(M1 and M2) act as the differential pair that amplifies the difference between the two input signal and the output are taken from Vout.
 
 **Design**
 
@@ -97,15 +100,19 @@ Calculations :
  - Choose "Transient".
  - Set stop time to 10ms and click ok.
 
-   ![transient ](https://github.com/user-attachments/assets/105b7f44-1202-47d6-b1be-d84132a6a4ed)
+![trans 1 final](https://github.com/user-attachments/assets/8ac30538-66a2-4d87-ad56-a20a56f694da)
 
 **Transient analysis for V<sub>incm(min)</sub> = 0.766 V**
 
+![trans 1 vincmmin final](https://github.com/user-attachments/assets/6d669e1c-70f5-4a9e-a21b-70f556f167ef)
+
 **Transient analysis for V<sub>incm(man)</sub> =**
+
+![trans 1 vincmmax final](https://github.com/user-attachments/assets/73a49fbd-d957-41c9-8db9-4827bcf9e0e2)
 
 # **AC Analysis :**
 
-![ac cir](https://github.com/user-attachments/assets/4dbd7f7d-08e3-47cb-a94d-fa0af83d208d)
+![ac cir](https://github.com/user-attachments/assets/113e8933-adc4-4ca9-863c-9d24314a7482)
 
 **Procedure :**
 - In voltage source select advanced and set the AC amplitude of M1 transistor to 1 ans M2 transistor to -1.
@@ -115,22 +122,47 @@ Calculations :
 - The obtained **differential gain is  **.
 - 3dB Bandwidth is
 
+![AC1](https://github.com/user-attachments/assets/ff9d4273-a2f3-4899-8c86-17337a12b7de)
+
 # **Circuit 2**
 
 - **Current source loaded differential amplifier pair**
 
+![c2](https://github.com/user-attachments/assets/ede5ecf1-dbe6-4af6-b67e-6aad8247b08b)
+
 # **DC Analysis :**
 
+![dc c2](https://github.com/user-attachments/assets/9cc45ea1-b3ce-4010-8d37-42ccdddea163)
 
 # **Transient Analysis :**
 
+![c2 trans](https://github.com/user-attachments/assets/251395c7-126b-4fa6-821e-2c5537948282)
+
+![trans c2](https://github.com/user-attachments/assets/0406661a-e882-411c-b3a9-76b826e3a98c)
+
 # **AC Analysis :**
 
+![c2 ac](https://github.com/user-attachments/assets/0ee2776f-8175-4307-8276-6394fc7d7f3a)
+
+![ac c2](https://github.com/user-attachments/assets/59bd2fa2-9f49-421d-9889-c8e086fee86a)
 
 # **Circuit 3**
 
+![c3](https://github.com/user-attachments/assets/e42b2caf-f4d4-48c2-a0e1-aeea6327ed34)
+
 # **DC Analysis :**
+
+![dc c3](https://github.com/user-attachments/assets/a045c11a-c8f9-4dd2-be82-a9ea4110acb6)
 
 # **Transient Analysis :**
 
+![c3 trans](https://github.com/user-attachments/assets/b81d5715-947f-411b-97e7-73fb5dc0aeb5)
+
+![trans c3](https://github.com/user-attachments/assets/18113f7e-66b4-45dd-a4cc-b70c64269f61)
+
 # **AC Analysis :**
+
+![c3 ac](https://github.com/user-attachments/assets/28a92e2a-950e-4680-9b14-059ed9d60063)
+
+![ac c3](https://github.com/user-attachments/assets/df6b2f1b-81ec-4f31-bd89-b0bce11d4286)
+
