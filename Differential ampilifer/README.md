@@ -59,7 +59,7 @@ Calculations :
 
   V<sub>DS</sub>>V<sub>ov</sub>
 
-![w and l](https://github.com/user-attachments/assets/6d4e0baa-ed90-4452-a225-82d4b50d4677)
+![1](https://github.com/user-attachments/assets/45366000-4fe9-4b33-9b4e-afab52c4988b)
 
 ![DC values](https://github.com/user-attachments/assets/d8582160-521b-438b-a04c-b4c22d3f921f)
 
@@ -120,6 +120,12 @@ Calculations :
 
 ![AC1](https://github.com/user-attachments/assets/ff9d4273-a2f3-4899-8c86-17337a12b7de)
 
+
+|Parameter      |Theory value  | Practical value |
+|---------------|--------------|-----------------|
+|Av(in dB)      | 12.68 dB     | 13.12 dB        |
+|Av(in V/V)     | 4.31         | 4.52            |
+
 # **Circuit 2**
 
 - **Current source loaded differential amplifier pair**
@@ -173,6 +179,11 @@ Calculations :
 
 ![ac c2](https://github.com/user-attachments/assets/59bd2fa2-9f49-421d-9889-c8e086fee86a)
 
+
+|Parameter      |Theory value  | Practical value |
+|---------------|--------------|-----------------|
+|Av(in dB)      | 12.82 dB     | 13.19 dB        |
+|Av(in V/V)     | 4.38         | 4.56            |
 # **Circuit 3**
 
 **MOSFET loaded differential amplifier pair**
@@ -232,6 +243,11 @@ V<sub>bias</sub> = V<sub>G</sub> = 0.76624 V ( Bias voltage at the gate for 3rd 
 
 ![ac c3](https://github.com/user-attachments/assets/df6b2f1b-81ec-4f31-bd89-b0bce11d4286)
 
+
+|Parameter      |Theory value  | Practical value |
+|---------------|--------------|-----------------|
+|Av(in dB)      | 12.72 dB     | 13.25 dB        |
+|Av(in V/V)     | 4.33         | 4.59            |
 # **Final Result**
 
 | **Parameter** | **Circuit 1** | **Circuit 2** | **Circuit 3** |
