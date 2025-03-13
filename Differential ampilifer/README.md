@@ -158,7 +158,7 @@ Calculations :
 
 ![trans c2](https://github.com/user-attachments/assets/0406661a-e882-411c-b3a9-76b826e3a98c)
 
-   A<sub>v</sub> = -4.31 V/V.
+   A<sub>v</sub> = -4.38 V/V.
    
 # **AC Analysis :**
 
@@ -167,7 +167,7 @@ Calculations :
 - In simulation tab select AC Analysis.
 - Then select **Type of Sweep as Decade**.
 - Select the frequency range from 0.1 Hz to 1 THz.
-- The obtained **differential gain is  13.121 dB**.
+- The obtained **differential gain is  13.19 dB**.
   
 ![c2 ac](https://github.com/user-attachments/assets/0ee2776f-8175-4307-8276-6394fc7d7f3a)
 
@@ -217,6 +217,8 @@ V<sub>bias</sub> = V<sub>G</sub> = 0.76624 V ( Bias voltage at the gate for 3rd 
 
 ![trans c3](https://github.com/user-attachments/assets/18113f7e-66b4-45dd-a4cc-b70c64269f61)
 
+  A<sub>v</sub> = -4.33 V/V.
+  
 # **AC Analysis :**
 
 **Procedure :**
@@ -224,9 +226,41 @@ V<sub>bias</sub> = V<sub>G</sub> = 0.76624 V ( Bias voltage at the gate for 3rd 
 - In simulation tab select AC Analysis.
 - Then select **Type of Sweep as Decade**.
 - Select the frequency range from 0.1 Hz to 1 THz.
-- The obtained **differential gain is  **.
+- The obtained **differential gain is  13.25**.
     
 ![c3 ac](https://github.com/user-attachments/assets/28a92e2a-950e-4680-9b14-059ed9d60063)
 
 ![ac c3](https://github.com/user-attachments/assets/df6b2f1b-81ec-4f31-bd89-b0bce11d4286)
 
+# **Final Result**
+
+| **Parameter** | **Circuit 1** | **Circuit 2** | **Circuit 3** |
+|--------------|--------------|--------------|--------------|
+| **V(out1)**  | 1.25V  | 1.25V  | 1.8V  |
+| **V(out2)**  | 1.25V  | 1.25V  | 1.8V  |
+| **V(vp)** | 0.400141V | 0.480819V | 0.400143V |
+| **Id(M1)** | 0.5 mA | 0.5 mA | 0.51 mA |
+| **Id(M2)** | -0.5 mA | -0.5 mA | -0.51 mA |
+| **Id(M3) (Tail Current Source)** | Not present | 1 mA (set with ideal current source) | 3.99 mA |
+| **Total Tail Current** | 1.13 mA | 1 mA | 3.99 mA |
+
+# **Inference :**
+
+The behavior of a differential amplifier with three distinct load configurations—resistor, current source, and NMOS—was investigated in this experiment. The performance of the amplifier is impacted differently by each configuration, particularly with regard to stability and voltage gain.
+
+## Comparison of Differential Pair Circuits
+
+| Feature               | **Circuit 1**                  | **Circuit 2**                  | **Circuit 3**                  |
+|-----------------------|--------------------------------|--------------------------------|--------------------------------|
+| **Current Source**    | Resistor (400 Ω)               | Ideal Current Source (1 mA)    | Active Current Source (NMOS)   |
+| **Practicality**      | Less Practical                 | Suitable for AC Analysis       | Realistic for Circuit Design   |
+
+# **Key Inference :**
+
+- Voltage Gain: In the resistor design, the gain is marginally lower than in the NMOS configuration. Because of the high output impedance of the current source, the gain is likewise higher than that of the resistor.
+- The bias current stayed constant at roughly 0.61mA in all configurations, indicating that the circuit was appropriately biased.
+- Common-Mode Voltage (Vocm): The output voltage was steady at approximately 1.1V, in accordance with the design parameters.
+
+# **Conclusion :**
+
+This experiment shows that a differential amplifier's performance is greatly impacted by the type of load used, whether it be an NMOS, resistor, or current source. Current source and NMOS loads are preferred for high-performance applications because they increase gain, stabilize, and guarantee appropriate biasing. This study reinforces fundamental ideas in analog circuit design by highlighting how crucial it is to choose the right load arrangement in order to maximize amplifier behavior.
