@@ -195,3 +195,11 @@ In order to determine the current value based on the specified ratio, the W/L va
 |Av(in dB)      | 20dB         | 22.53dB         |
 |Av(in V/V)     | 10           | 9.86            |
 
+# FOR L = 500 nm
+
+|Ratio|  Av(in dB)    | Av(in V/V) | 
+|-----|---------------|------------|
+|1:1  |11.15          |14.9        |    
+|1:2  |12.85          |16.31       |   
+|1:3  |11.01          |14.35       |
+|2:1  |9.789          |19.83       |
