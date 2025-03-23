@@ -1,6 +1,5 @@
-# **PART A**
 # **Current Mirroring Experiment**
-
+# **PART A**
 Aim : Design and Analyze Current mirror circuit as active load in amplifier circuit.
 
 Given :
