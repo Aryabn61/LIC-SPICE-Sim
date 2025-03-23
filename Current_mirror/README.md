@@ -12,6 +12,7 @@ Circuit diagram :
 
 ![image](https://github.com/user-attachments/assets/efbf9c25-9402-4c19-b28b-53f7f284ae52)
 
+# FOR L = 180 nm
 # **1:1 Ratio :**
 # **DC Analysis:**
 
