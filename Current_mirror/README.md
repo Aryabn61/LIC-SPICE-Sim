@@ -228,10 +228,10 @@ When the mirror ratio increases (from 1:1 to 1:2), the gain also increases as ex
 
 Overall, the results closely match theoretical predictions, proving that the simulation and circuit design are working correctly.
 
-# PART B 
+# **PART B** 
 
 **Aim :**
-Design the differential amplifier using the same design specification as Experiment-3. Perform DC analysis,trasient and AC analysis.\
+Design the differential amplifier using the same design specification as Experiment-3. Perform DC analysis,trasient and AC analysis.
 
 # **DC Analysis :**
 
@@ -256,3 +256,6 @@ Design the differential amplifier using the same design specification as Experim
 **OUTPUT :**
 
 ![ac1](https://github.com/user-attachments/assets/fe854a5b-b352-4d8a-8644-59ea5d78264a)
+
+# **Inference :**
+The circuit operates as a differential amplifier based on a current mirror, with the output (Vout) being controlled by the difference between V2 and V3.Stable current replication is guaranteed by the PMOS current mirror (M1-M2).This circuit is helpful for signal processing and amplification in analog designs because it uses the NMOS differential pair (M3-M4) for amplification.
