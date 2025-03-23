@@ -50,6 +50,7 @@ Since Vin is chosen to be in the saturation range, the value that is provided is
 - Click on run simulation and choose AC analysis.
 - Select type of sweep to decade , frequency range to 0.1 - 1 THz.
 - Click on Ok.
+- 
 **OUTPUT :**
 ![ac1](https://github.com/user-attachments/assets/b62e9885-1f53-4750-aecd-938eb7307f74)
   **Result :**
@@ -87,6 +88,7 @@ In order to determine the current value based on the specified ratio, the W/L va
 - Click on run simulation and choose AC analysis.
 - Select type of sweep to decade , frequency range to 0.1 - 1 THz.
 - Click on Ok.
+
 **OUTPUT :**
 ![ac1](https://github.com/user-attachments/assets/fdf6b91c-cbf0-4527-baed-000313b8488a)
 
@@ -111,6 +113,7 @@ In order to determine the current value based on the specified ratio, the W/L va
 - Click on run command.
 - Select transient analysis and choose 10 ms for stop time.
 - Click on ok.
+
 **OUTPUT :**
 ![tr1](https://github.com/user-attachments/assets/66b97c0a-8b8d-41b1-8ee3-7d4b9987d403)
 **Result :**\
@@ -123,6 +126,7 @@ In order to determine the current value based on the specified ratio, the W/L va
 - Click on run simulation and choose AC analysis.
 - Select type of sweep to decade , frequency range to 0.1 - 1 THz.
 - Click on Ok.
+  
 **OUTPUT :**
 ![ac1](https://github.com/user-attachments/assets/a796e1a0-fe17-4325-8314-fa81e533276c)
 
@@ -144,6 +148,7 @@ In order to determine the current value based on the specified ratio, the W/L va
 - Click on run command.
 - Select transient analysis and choose 10 ms for stop time.
 - Click on ok.
+  
 **OUTPUT :**
 ![tr1](https://github.com/user-attachments/assets/2ef6931e-dc4d-488e-b02b-1af88d0cb6a6)
   **Result :**\
@@ -177,6 +182,7 @@ In order to determine the current value based on the specified ratio, the W/L va
 - Click on run command.
 - Select transient analysis and choose 10 ms for stop time.
 - Click on ok.
+  
 **OUTPUT :**
 ![trc1](https://github.com/user-attachments/assets/89c62e7f-6b43-49a7-9aaf-45e3e4ea3011)
 **Result :**\
