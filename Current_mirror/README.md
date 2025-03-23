@@ -224,7 +224,7 @@ In order to determine the current value based on the specified ratio, the W/L va
 |2:1  |12.56          |16.87       |
 # **Inference :**
 - The current mirror circuit accurately copies the reference current with very little variation, ensuring reliable current mirroring across different W/L ratios.
-- Even when the W/L ratio changes while keeping the same proportion, the drain current (Id) stays nearly the same, confirming the circuit's effectiveness.
+- Even when the W/L ratio changes while keeping the same proportion, the drain current (I<sub>D</sub>) stays nearly the same, confirming the circuit's effectiveness.
 - The amplifier gain is slightly higher than expected due to small differences in transistor properties or minor simulation effects.
 - When the mirror ratio increases (from 1:1 to 1:2), the gain also increases as expected.
 - Overall, the results closely match theoretical predictions, proving that the simulation and circuit design are working correctly.
