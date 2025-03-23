@@ -227,3 +227,32 @@ The amplifier gain is slightly higher than expected due to small differences in 
 When the mirror ratio increases (from 1:1 to 1:2), the gain also increases as expected.
 
 Overall, the results closely match theoretical predictions, proving that the simulation and circuit design are working correctly.
+
+# PART B 
+
+**Aim :**
+Design the differential amplifier using the same design specification as Experiment-3. Perform DC analysis,trasient and AC analysis.\
+
+# **DC Analysis :**
+
+![dcc1](https://github.com/user-attachments/assets/933f5ad7-7907-4834-ac74-a83421925e9a)
+
+**OUTPUT :**
+
+![dc1](https://github.com/user-attachments/assets/e7b2ce77-6b16-4642-8f28-1f2b8abb0af6)
+
+# **Transient Analysis :**
+
+![trc1](https://github.com/user-attachments/assets/806bb9a2-05e1-4271-9012-304c229d22f4)
+
+**OUTPUT :**
+
+![a3](https://github.com/user-attachments/assets/b9e84eb5-4cba-404f-b093-b96f7067e975)
+
+# **AC Analysis :**
+
+![acc1](https://github.com/user-attachments/assets/14927e62-b634-450d-ba6d-885af7174ba9)
+
+**OUTPUT :**
+
+![ac1](https://github.com/user-attachments/assets/fe854a5b-b352-4d8a-8644-59ea5d78264a)
