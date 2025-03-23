@@ -24,7 +24,7 @@ I<sub>Total</sub> = 1 mW/1.8 V\
 I<sub>Total</sub> = 0.555 mA\
 I<sub>ref</sub> = 0.555 m/2\
 I<sub>ref</sub> = 0.2778 mA.\
-In order to determine the current value based on the specified ratio, the W/L values for M1, M2, and M3 are 10um/180nm, 10um/180nm, and 10um/180nm, respectively.
+In order to determine the current value based on the specified ratio, the W/L values for M1, M2, and M3 are 10	µm/180nm, 10	µm/180nm, and 10	µm/180nm, respectively.
 Since Vin is chosen to be in the saturation range, the value that is provided is 0.6275V.\
 ![dcc1](https://github.com/user-attachments/assets/95e36a79-88c3-475e-9337-1e2d8a0cadc5)
 **OUTPUT :**
@@ -62,7 +62,7 @@ Since Vin is chosen to be in the saturation range, the value that is provided is
 ![dcc1](https://github.com/user-attachments/assets/9563e1fd-256d-4e39-a258-cc066a7b8ea8)
 
 I<sub>ref</sub> = 0.185 mA.
-In order to determine the current value based on the specified ratio, the W/L values for  M2 and M3 are 6um/180nm and 6um/180nm, nd M1 is 3um/180nm respectively. Since Vin is chosen to be in the saturation range, the value that is provided is 0.763 V.
+In order to determine the current value based on the specified ratio, the W/L values for  M2 and M3 are 6	µm/180nm and 6	µm/180nm, nd M1 is 3	µm/180nm respectively. Since Vin is chosen to be in the saturation range, the value that is provided is 0.763 V.
 **OUTPUT :**
 ![dc1](https://github.com/user-attachments/assets/e5b6ec50-aabb-4064-b76d-25a4b68014cd)
 
@@ -97,7 +97,7 @@ In order to determine the current value based on the specified ratio, the W/L va
 ![dcc1](https://github.com/user-attachments/assets/657a9148-6e8e-40ba-827e-a6330b54645d)
 
 I<sub>ref</sub> = 0.13875 mA.
-In order to determine the current value based on the specified ratio, the W/L values for  M2 and M3 are 9um/180nm and 9um/180nm, nd M1 is 3um/180nm respectively. Since Vin is chosen to be in the saturation range, the value that is provided is 0.8566 V.
+In order to determine the current value based on the specified ratio, the W/L values for  M2 and M3 are 9	µm/180nm and 9	µm/180nm, nd M1 is 3	µm/180nm respectively. Since Vin is chosen to be in the saturation range, the value that is provided is 0.8566 V.
 
 ![dc1](https://github.com/user-attachments/assets/14391144-8b51-403c-9b9c-5363a40fdfd3)
 
@@ -131,7 +131,7 @@ In order to determine the current value based on the specified ratio, the W/L va
 
 # **DC Analysis :**
 I<sub>ref</sub> = 0.0925 mA.
-In order to determine the current value based on the specified ratio, the W/L values for  M2 and M3 are 6um/180nm and 6um/180nm, nd M1 is 3um/180nm respectively. Since Vin is chosen to be in the saturation range, the value that is provided is 0.6875 V.
+In order to determine the current value based on the specified ratio, the W/L values for  M2 and M3 are 6	µm/180nm and 6	µm/180nm, nd M1 is 3	µm/180nm respectively. Since Vin is chosen to be in the saturation range, the value that is provided is 0.6875 V.
 **OUTPUT :**
 ![dc1](https://github.com/user-attachments/assets/91a844e7-a3b3-473c-83f3-fac221a78bc3)
 # **Transient Analysis :**
@@ -164,7 +164,7 @@ In order to determine the current value based on the specified ratio, the W/L va
 ![DCC1](https://github.com/user-attachments/assets/1ee6e807-99c9-4bf1-b38f-3162a2501d20)
 
 I<sub>ref</sub> = 0.555 mA.
-In order to determine the current value based on the specified ratio, the W/L values for  M2 and M3 are 6um/180nm and 6um/180nm, nd M1 is 3um/180nm respectively. Since Vin is chosen to be in the saturation range, the value that is provided is 0.835 V.
+In order to determine the current value based on the specified ratio, the W/L values for  M2 and M3 are 6	µm/180nm and 6	µm/180nm, nd M1 is 3	µm/180nm respectively. Since Vin is chosen to be in the saturation range, the value that is provided is 0.835 V.
 **OUTPUT :**
 ![dc1](https://github.com/user-attachments/assets/039c929e-0470-4648-b702-7cdb043c13ff)
 
@@ -204,6 +204,14 @@ In order to determine the current value based on the specified ratio, the W/L va
 |1:3  |11.01          |14.35       |
 |2:1  |9.789          |19.83       |
 
+# FOR L = 1 	µm
+
+|Ratio|  Av(in dB)    | Av(in V/V) | 
+|-----|---------------|------------|
+|1:1  |11.15          |14.9        |    
+|1:2  |12.85          |16.31       |   
+|1:3  |11.01          |14.35       |
+|2:1  |9.789          |19.83       |
 # **Inference :**
 
 The current mirror circuit accurately copies the reference current with very little variation, ensuring reliable current mirroring across different W/L ratios.  
