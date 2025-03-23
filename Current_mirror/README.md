@@ -50,7 +50,7 @@ Since Vin is chosen to be in the saturation range, the value that is provided is
 - Click on run simulation and choose AC analysis.
 - Select type of sweep to decade , frequency range to 0.1 - 1 THz.
 - Click on Ok.
-- 
+
 **OUTPUT :**
 ![ac1](https://github.com/user-attachments/assets/b62e9885-1f53-4750-aecd-938eb7307f74)
   **Result :**
