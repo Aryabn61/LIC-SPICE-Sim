@@ -208,10 +208,10 @@ In order to determine the current value based on the specified ratio, the W/L va
 
 |Ratio|  Av(in dB)    | Av(in V/V) | 
 |-----|---------------|------------|
-|1:1  |11.15          |14.9        |    
-|1:2  |12.85          |16.31       |   
-|1:3  |11.01          |14.35       |
-|2:1  |9.789          |19.83       |
+|1:1  |12.60          |15.3        |    
+|1:2  |9.55           |15.98       |   
+|1:3  |10.95          |16.13       |
+|2:1  |12.56          |16.87       |
 # **Inference :**
 
 The current mirror circuit accurately copies the reference current with very little variation, ensuring reliable current mirroring across different W/L ratios.  
