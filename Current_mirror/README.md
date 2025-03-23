@@ -16,6 +16,8 @@ Circuit diagram :
 # **1:1 Ratio :**
 # **DC Analysis:**
 
+The drain current with channel length modulation is expressed as:\
+I<sub>D</sub> = (1/2)μnC<sub>ox</sub>(W/L)(VGS - Vth)^2\
 I<sub>Total</sub> = P/V<sub>DD</sub>\
 I<sub>Total</sub> = I<sub>ref</sub> + I<sub>x</sub>\
 Since the ratio is 1:1 I<sub>ref</sub> = I<sub>x</sub>\
@@ -24,6 +26,8 @@ I<sub>Total</sub> = 1 mW/1.8 V\
 I<sub>Total</sub> = 0.555 mA\
 I<sub>ref</sub> = 0.555 m/2\
 I<sub>ref</sub> = 0.2778 mA.\
+For matched transistors in a 1:1 ratio:\
+W1/L1 = W2/L2\
 In order to determine the current value based on the specified ratio, the W/L values for M1, M2, and M3 are 10	µm/180nm, 10	µm/180nm, and 10	µm/180nm, respectively.
 Since Vin is chosen to be in the saturation range, the value that is provided is 0.6275V.\
 ![dcc1](https://github.com/user-attachments/assets/95e36a79-88c3-475e-9337-1e2d8a0cadc5)
