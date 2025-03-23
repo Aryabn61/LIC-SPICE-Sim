@@ -42,7 +42,7 @@ Since Vin is chosen to be in the saturation range, the value that is provided is
 **OUTPUT :**
 ![tc1](https://github.com/user-attachments/assets/278d9154-94ae-4060-a1df-3b9e31824269)
 **Result :**\
-  The expected gain was greater than or equal to 10 V/V and the obtained gain is 13.77 V/V.\
+  The expected gain was greater than or equal to 10 V/V and the obtained gain is 13.77 V/V.
 # **AC Analysis :**
 ![acc1](https://github.com/user-attachments/assets/fc6a349b-eb4c-4595-b5ef-d1a30ee1e57a)
 **Procedure :**
@@ -80,7 +80,7 @@ In order to determine the current value based on the specified ratio, the W/L va
 **OUTPUT :**
 ![tr1](https://github.com/user-attachments/assets/ebc5946d-fc20-4bdf-bb98-9c7732ee3523)
 **Result :**\
-  The expected gain was greater than or equal to 10 V/V and the obtained gain is 12.11 V/V.\
+  The expected gain was greater than or equal to 10 V/V and the obtained gain is 12.11 V/V.
 # **AC Analysis :**
 ![acc1](https://github.com/user-attachments/assets/877ded48-bcea-470e-84e5-f4cc3dd7fab3)
 **Procedure :**
@@ -117,7 +117,7 @@ In order to determine the current value based on the specified ratio, the W/L va
 **OUTPUT :**
 ![tr1](https://github.com/user-attachments/assets/66b97c0a-8b8d-41b1-8ee3-7d4b9987d403)
 **Result :**\
-  The expected gain was greater than or equal to 10 V/V and the obtained gain is 13.167 V/V.\
+  The expected gain was greater than or equal to 10 V/V and the obtained gain is 13.167 V/V.
 # **AC Analysis :**
 
 ![acc1](https://github.com/user-attachments/assets/75d335b9-82e0-4163-b028-5962f52e496a)
@@ -152,7 +152,7 @@ In order to determine the current value based on the specified ratio, the W/L va
 **OUTPUT :**
 ![tr1](https://github.com/user-attachments/assets/2ef6931e-dc4d-488e-b02b-1af88d0cb6a6)
   **Result :**\
-  The expected gain was greater than or equal to 10 V/V and the obtained gain is 14.031 V/V.\
+  The expected gain was greater than or equal to 10 V/V and the obtained gain is 14.031 V/V.
 # **AC Analysis :**
 **Procedure :**
 - Change the V<sub>in</sub> to AC and set AC amplitude to 1.
