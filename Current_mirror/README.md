@@ -12,7 +12,8 @@ Circuit diagram :
 
 ![image](https://github.com/user-attachments/assets/efbf9c25-9402-4c19-b28b-53f7f284ae52)
 
-# **DC Analysis(1:1 ratio) :**
+# **1:1 Ratio :**
+# **DC Analysis:**
 
 I<sub>Total</sub> = P/V<sub>DD</sub>\
 I<sub>Total</sub> = I<sub>ref</sub> + I<sub>x</sub>\
@@ -24,28 +25,28 @@ I<sub>ref</sub> = 0.555 m/2\
 I<sub>ref</sub> = 0.2778 mA.\
 In order to determine the current value based on the specified ratio, the W/L values for M1, M2, and M3 are 10um/180nm, 10um/180nm, and 10um/180nm, respectively.
 Since Vin is chosen to be in the saturation range, the value that is provided is 0.6275V.\
-![dc c1](https://github.com/user-attachments/assets/041df0d8-acb1-49ec-a13f-9c00fb85c60e)\
-**OUTPUT :**\
-![dc 11](https://github.com/user-attachments/assets/bc3c2d6f-ad95-4cbb-ae66-c9e81ee0412f)\
+![dcc1](https://github.com/user-attachments/assets/95e36a79-88c3-475e-9337-1e2d8a0cadc5)
+**OUTPUT :**
+![dc1](https://github.com/user-attachments/assets/0bef1396-cc00-4844-af59-bd3e28b1a31e)
 # **Transient Analysis :**
 - Change the input voltage to sine and change the amplitude to 50 mV , frequency to 1 kHz and offset voltage to 0.6275 V.
 - Click on run command.
 - Select transient analysis and choose 10 ms for stop time.
 - Click on ok.
-  ![tc1](https://github.com/user-attachments/assets/0baf3973-db29-43a0-868e-99156c9e73da)\
-**OUTPUT :**\
-![t11](https://github.com/user-attachments/assets/33bff03f-ce0b-4ad7-ae89-d6887aef8a15)\
+![trc1](https://github.com/user-attachments/assets/4172d700-db34-4a56-8582-af6e871d451f)
+**OUTPUT :**
+![tc1](https://github.com/user-attachments/assets/278d9154-94ae-4060-a1df-3b9e31824269)
 **Result :**\
   The expected gain was greater than or equal to 10 V/V and the obtained gain is 13.77 V/V.\
 # **AC Analysis :**
-![acc1](https://github.com/user-attachments/assets/57736abe-c8d7-4af5-8717-57b3c1940db9)\
-**Procedure :**\
+![acc1](https://github.com/user-attachments/assets/fc6a349b-eb4c-4595-b5ef-d1a30ee1e57a)
+**Procedure :**
 - Change the V<sub>in</sub> to AC and set AC amplitude to 1.
 - Click on run simulation and choose AC analysis.
 - Select number of points to decade , frequency range to 0.1 - 1 THz.
 - Click on Ok.
-**OUTPUT :**/
-  ![ac1](https://github.com/user-attachments/assets/5b02d312-6042-481a-ade4-286e55a4e34a)\
+**OUTPUT :**
+![ac1](https://github.com/user-attachments/assets/b62e9885-1f53-4750-aecd-938eb7307f74)
   **Result :**
   The Expected gain in dB is 20 and the obtained gain is 26.23 dB.
 
@@ -53,3 +54,89 @@ Since Vin is chosen to be in the saturation range, the value that is provided is
 |---------------|--------------|-----------------|
 |Av(in dB)      | 20dB         | 26.23dB         |
 |Av(in V/V)     | 10           | 13.77           |
+
+# **1:2 Ratio :**
+
+# **DC Analysis :**
+![dcc1](https://github.com/user-attachments/assets/9563e1fd-256d-4e39-a258-cc066a7b8ea8)
+
+![dc1](https://github.com/user-attachments/assets/e5b6ec50-aabb-4064-b76d-25a4b68014cd)
+
+# **Transient Analysis :**
+![trcc1](https://github.com/user-attachments/assets/e3cba872-2513-454a-b176-d6a62736028f)
+
+![tr1](https://github.com/user-attachments/assets/ebc5946d-fc20-4bdf-bb98-9c7732ee3523)
+
+# **AC Analysis :**
+![acc1](https://github.com/user-attachments/assets/877ded48-bcea-470e-84e5-f4cc3dd7fab3)
+
+![ac1](https://github.com/user-attachments/assets/fdf6b91c-cbf0-4527-baed-000313b8488a)
+
+|  Parameter    | Theory value | Practical value |
+|---------------|--------------|-----------------|
+|Av(in dB)      | 20dB         | 25.57dB         |
+|Av(in V/V)     | 10           | 12.11           |
+
+# **1:3 Ratio :**
+
+# **DC Analysis :**
+![dcc1](https://github.com/user-attachments/assets/657a9148-6e8e-40ba-827e-a6330b54645d)
+
+![dc1](https://github.com/user-attachments/assets/14391144-8b51-403c-9b9c-5363a40fdfd3)
+
+# **Transient Analysis :**
+![trcc1](https://github.com/user-attachments/assets/13678852-1123-4151-950b-cec60bf80b77)
+
+![tr1](https://github.com/user-attachments/assets/66b97c0a-8b8d-41b1-8ee3-7d4b9987d403)
+
+# **AC Analysis :**
+
+![acc1](https://github.com/user-attachments/assets/75d335b9-82e0-4163-b028-5962f52e496a)
+
+![ac1](https://github.com/user-attachments/assets/a796e1a0-fe17-4325-8314-fa81e533276c)
+
+|  Parameter    | Theory value | Practical value |
+|---------------|--------------|-----------------|
+|Av(in dB)      | 20dB         | 24.85dB         |
+|Av(in V/V)     | 10           | 13.167          |
+
+# **1:5 Ratio :**
+
+# **DC Analysis :**
+![dc1](https://github.com/user-attachments/assets/91a844e7-a3b3-473c-83f3-fac221a78bc3)
+
+# **Transient Analysis :**
+![tr1](https://github.com/user-attachments/assets/2ef6931e-dc4d-488e-b02b-1af88d0cb6a6)
+
+# **AC Analysis :**
+![ac1](https://github.com/user-attachments/assets/21caed29-4972-4228-a44b-629a20eee195)
+
+|  Parameter    | Theory value | Practical value |
+|---------------|--------------|-----------------|
+|Av(in dB)      | 20dB         | 27.14dB         |
+|Av(in V/V)     | 10           | 14.031          |
+
+# **2:1 Ratio :**
+
+# **DC Analysis :**
+![DCC1](https://github.com/user-attachments/assets/1ee6e807-99c9-4bf1-b38f-3162a2501d20)
+
+![dc1](https://github.com/user-attachments/assets/039c929e-0470-4648-b702-7cdb043c13ff)
+
+# **Transient Analysis :**
+
+![trc1](https://github.com/user-attachments/assets/89c62e7f-6b43-49a7-9aaf-45e3e4ea3011)
+
+![tr1](https://github.com/user-attachments/assets/8e59821b-e57c-4a08-aecd-32e599f39b43)
+
+# **AC Analysis :**
+
+![acc1](https://github.com/user-attachments/assets/53798423-ba56-49fc-a3f9-f72c5ad40959)
+
+![ac1](https://github.com/user-attachments/assets/898cb03f-d52c-4f18-b78b-82a2a19e34e9)
+
+|  Parameter    | Theory value | Practical value |
+|---------------|--------------|-----------------|
+|Av(in dB)      | 20dB         | 22.53dB         |
+|Av(in V/V)     | 10           | 9.86            |
+
