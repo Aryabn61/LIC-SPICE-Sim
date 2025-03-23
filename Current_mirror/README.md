@@ -49,7 +49,7 @@ Since Vin is chosen to be in the saturation range, the value that is provided is
   **Result :**
   The Expected gain in dB is 20 and the obtained gain is 25.23 dB.
 
-  |Parameter    | Theory value | Practical value |
+|  Parameter    | Theory value | Practical value |
 |---------------|--------------|-----------------|
 |Av(in dB)      | 20dB         | 25.23dB         |
 |Av(in V/V)     | 10           | 13.77           |
