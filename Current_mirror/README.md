@@ -43,7 +43,7 @@ Since Vin is chosen to be in the saturation range, the value that is provided is
 **Procedure :**
 - Change the V<sub>in</sub> to AC and set AC amplitude to 1.
 - Click on run simulation and choose AC analysis.
-- Select number of points to decade , frequency range to 0.1 - 1 THz.
+- Select type of sweep to decade , frequency range to 0.1 - 1 THz.
 - Click on Ok.
 **OUTPUT :**
 ![ac1](https://github.com/user-attachments/assets/b62e9885-1f53-4750-aecd-938eb7307f74)
@@ -60,16 +60,29 @@ Since Vin is chosen to be in the saturation range, the value that is provided is
 # **DC Analysis :**
 ![dcc1](https://github.com/user-attachments/assets/9563e1fd-256d-4e39-a258-cc066a7b8ea8)
 
+I<sub>ref</sub> = 0.185 mA.
+In order to determine the current value based on the specified ratio, the W/L values for  M2 and M3 are 6um/180nm and 6um/180nm, nd M1 is 3um/180nm respectively. Since Vin is chosen to be in the saturation range, the value that is provided is 0.763 V.
+**OUTPUT :**
 ![dc1](https://github.com/user-attachments/assets/e5b6ec50-aabb-4064-b76d-25a4b68014cd)
 
 # **Transient Analysis :**
 ![trcc1](https://github.com/user-attachments/assets/e3cba872-2513-454a-b176-d6a62736028f)
-
+- Change the input voltage to sine and change the amplitude to 50 mV , frequency to 1 kHz and offset voltage to 0.763 V.
+- Click on run command.
+- Select transient analysis and choose 10 ms for stop time.
+- Click on ok.
+**OUTPUT :**
 ![tr1](https://github.com/user-attachments/assets/ebc5946d-fc20-4bdf-bb98-9c7732ee3523)
-
+**Result :**\
+  The expected gain was greater than or equal to 10 V/V and the obtained gain is 12.11 V/V.\
 # **AC Analysis :**
 ![acc1](https://github.com/user-attachments/assets/877ded48-bcea-470e-84e5-f4cc3dd7fab3)
-
+**Procedure :**
+- Change the V<sub>in</sub> to AC and set AC amplitude to 1.
+- Click on run simulation and choose AC analysis.
+- Select type of sweep to decade , frequency range to 0.1 - 1 THz.
+- Click on Ok.
+**OUTPUT :**
 ![ac1](https://github.com/user-attachments/assets/fdf6b91c-cbf0-4527-baed-000313b8488a)
 
 |  Parameter    | Theory value | Practical value |
@@ -82,17 +95,30 @@ Since Vin is chosen to be in the saturation range, the value that is provided is
 # **DC Analysis :**
 ![dcc1](https://github.com/user-attachments/assets/657a9148-6e8e-40ba-827e-a6330b54645d)
 
+I<sub>ref</sub> = 0.13875 mA.
+In order to determine the current value based on the specified ratio, the W/L values for  M2 and M3 are 9um/180nm and 9um/180nm, nd M1 is 3um/180nm respectively. Since Vin is chosen to be in the saturation range, the value that is provided is 0.8566 V.
+
 ![dc1](https://github.com/user-attachments/assets/14391144-8b51-403c-9b9c-5363a40fdfd3)
 
 # **Transient Analysis :**
 ![trcc1](https://github.com/user-attachments/assets/13678852-1123-4151-950b-cec60bf80b77)
-
+- Change the input voltage to sine and change the amplitude to 50 mV , frequency to 1 kHz and offset voltage to 0.8566 V.
+- Click on run command.
+- Select transient analysis and choose 10 ms for stop time.
+- Click on ok.
+**OUTPUT :**
 ![tr1](https://github.com/user-attachments/assets/66b97c0a-8b8d-41b1-8ee3-7d4b9987d403)
-
+**Result :**\
+  The expected gain was greater than or equal to 10 V/V and the obtained gain is 13.167 V/V.\
 # **AC Analysis :**
 
 ![acc1](https://github.com/user-attachments/assets/75d335b9-82e0-4163-b028-5962f52e496a)
-
+**Procedure :**
+- Change the V<sub>in</sub> to AC and set AC amplitude to 1.
+- Click on run simulation and choose AC analysis.
+- Select type of sweep to decade , frequency range to 0.1 - 1 THz.
+- Click on Ok.
+**OUTPUT :**
 ![ac1](https://github.com/user-attachments/assets/a796e1a0-fe17-4325-8314-fa81e533276c)
 
 |  Parameter    | Theory value | Practical value |
@@ -103,12 +129,27 @@ Since Vin is chosen to be in the saturation range, the value that is provided is
 # **1:5 Ratio :**
 
 # **DC Analysis :**
+I<sub>ref</sub> = 0.0925 mA.
+In order to determine the current value based on the specified ratio, the W/L values for  M2 and M3 are 6um/180nm and 6um/180nm, nd M1 is 3um/180nm respectively. Since Vin is chosen to be in the saturation range, the value that is provided is 0.6875 V.
+**OUTPUT :**
 ![dc1](https://github.com/user-attachments/assets/91a844e7-a3b3-473c-83f3-fac221a78bc3)
-
 # **Transient Analysis :**
-![tr1](https://github.com/user-attachments/assets/2ef6931e-dc4d-488e-b02b-1af88d0cb6a6)
 
+- Change the input voltage to sine and change the amplitude to 50 mV , frequency to 1 kHz and offset voltage to 0.6875 V.
+- Click on run command.
+- Select transient analysis and choose 10 ms for stop time.
+- Click on ok.
+**OUTPUT :**
+![tr1](https://github.com/user-attachments/assets/2ef6931e-dc4d-488e-b02b-1af88d0cb6a6)
+  **Result :**\
+  The expected gain was greater than or equal to 10 V/V and the obtained gain is 14.031 V/V.\
 # **AC Analysis :**
+**Procedure :**
+- Change the V<sub>in</sub> to AC and set AC amplitude to 1.
+- Click on run simulation and choose AC analysis.
+- Select type of sweep to decade , frequency range to 0.1 - 1 THz.
+- Click on Ok.
+**OUTPUT :**
 ![ac1](https://github.com/user-attachments/assets/21caed29-4972-4228-a44b-629a20eee195)
 
 |  Parameter    | Theory value | Practical value |
@@ -121,18 +162,31 @@ Since Vin is chosen to be in the saturation range, the value that is provided is
 # **DC Analysis :**
 ![DCC1](https://github.com/user-attachments/assets/1ee6e807-99c9-4bf1-b38f-3162a2501d20)
 
+I<sub>ref</sub> = 0.555 mA.
+In order to determine the current value based on the specified ratio, the W/L values for  M2 and M3 are 6um/180nm and 6um/180nm, nd M1 is 3um/180nm respectively. Since Vin is chosen to be in the saturation range, the value that is provided is 0.835 V.
+**OUTPUT :**
 ![dc1](https://github.com/user-attachments/assets/039c929e-0470-4648-b702-7cdb043c13ff)
 
 # **Transient Analysis :**
-
+- Change the input voltage to sine and change the amplitude to 50 mV , frequency to 1 kHz and offset voltage to 0.835 V.
+- Click on run command.
+- Select transient analysis and choose 10 ms for stop time.
+- Click on ok.
+**OUTPUT :**
 ![trc1](https://github.com/user-attachments/assets/89c62e7f-6b43-49a7-9aaf-45e3e4ea3011)
-
+**Result :**\
+  The expected gain was greater than or equal to 10 V/V and the obtained gain is 9.86 V/V.\
 ![tr1](https://github.com/user-attachments/assets/8e59821b-e57c-4a08-aecd-32e599f39b43)
 
 # **AC Analysis :**
 
 ![acc1](https://github.com/user-attachments/assets/53798423-ba56-49fc-a3f9-f72c5ad40959)
-
+**Procedure :**
+- Change the V<sub>in</sub> to AC and set AC amplitude to 1.
+- Click on run simulation and choose AC analysis.
+- Select type of sweep to decade , frequency range to 0.1 - 1 THz.
+- Click on Ok.
+**OUTPUT :**
 ![ac1](https://github.com/user-attachments/assets/898cb03f-d52c-4f18-b78b-82a2a19e34e9)
 
 |  Parameter    | Theory value | Practical value |
